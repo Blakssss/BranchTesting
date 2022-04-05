@@ -5,4 +5,5 @@ abstract class Animal {
   public void makeSound(){
     System.out.println();
   }
+  public abstract boolean eat(String foodType);
 }
