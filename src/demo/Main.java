@@ -9,6 +9,8 @@ public class Main {
         new Cat().makeSound();
         dog.eat("fish");
         cat.eat("beef");
+        dog.mood();
+        cat.mood();
 
     }
 }

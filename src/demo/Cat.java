@@ -9,4 +9,10 @@ public class Cat extends Animal{
   public boolean eat(String foodType){
     return true;
   }
+
+  @Override
+  public boolean mood() {
+    System.out.println("hvæser");
+    return false;
+  }
 }

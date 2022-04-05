@@ -6,4 +6,7 @@ abstract class Animal {
     System.out.println();
   }
   public abstract boolean eat(String foodType);
+
+  public abstract boolean mood();
 }
+
